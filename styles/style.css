@@ -1,0 +1,33 @@
+html {
+    font-size: 30px; /* px means "pixels": the base font size is now 10 pixels high */
+    font-family: "Bebas Neue", sans-serif;  /* this should the rest of the output you got from Google fonts */
+}
+h1 {
+    font-size: 60px; 
+    text-align: center; /* this shifts the text to the center */
+}
+p,li {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+html {
+    background-color:  #A6A9AA;
+}
+body{
+    width: 600px; /* the width of the element */
+    margin: 0 auto; /* the space around the outside of the border */
+    background-color: #FFFFFF; /* the color behind an elements content and padding */
+    padding: 0 20px 20px 20px; /* padding is the space around the paragraph text */
+    border: 5px solid black; /* the border is the solid line outside the padding */
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #69C7E6; /* the color of an elements content (usually text) */
+    text-shadow: 3px 3px 1px black; /* sets a drop shawdow on the text inside an element */
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
